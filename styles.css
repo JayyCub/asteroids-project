@@ -1,0 +1,185 @@
+@charset "UTF-8";
+.site-body {
+    margin: 0px;
+    color: rgba(245,245,245,1.00);
+}
+
+html { 
+	font-family: 'Trebuchet MS', sans-serif;
+	background: url("images/IvSYOt.jpeg") no-repeat center center fixed; 
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+.site-header {
+    top: 0;
+    width: 100%;
+    margin: 0px;
+    height: auto;
+    border-bottom-left-radius: 200px 31px;
+    border-bottom-right-radius: 200px 30px;
+    background-color: rgba(0,0,0,1.00);
+    color: rgba(255,255,255,1.00);
+    position: fixed;
+    border-width: 5px;
+    background-image: -o-linear-gradient(197deg,rgba(46,46,46,1.00) 0%,rgba(0,0,0,1.00) 49.38%,rgba(32,32,32,1.00) 100%);
+    background-image: -webkit-linear-gradient(197deg,rgba(46,46,46,1.00) 0%,rgba(0,0,0,1.00) 49.38%,rgba(32,32,32,1.00) 100%);
+    background-image: -moz-linear-gradient(197deg,rgba(46,46,46,1.00) 0%,rgba(0,0,0,1.00) 49.38%,rgba(32,32,32,1.00) 100%);
+    background-image: linear-gradient(253deg,rgba(46,46,46,1.00) 0%,rgba(0,0,0,1.00) 49.38%,rgba(32,32,32,1.00) 100%);
+}
+.header-title {
+    width: 60%;
+    text-align: center;
+    font-size: 42px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.header-catch {
+    margin-bottom: 0px;
+    text-align: center;
+    margin-top: 0px;
+    width: 75%;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 22px;
+}
+.title {
+    margin-top: 5%;
+    width: 80%;
+    margin-left: auto;
+    font-style: italic;
+    text-align: center;
+    margin-right: auto;
+    font-size: 36px;
+    padding-top: 16%;
+}
+.date-input {
+    width: 25%;
+    height: 40px;
+    margin-left: 5%;
+    margin-right: 5%;
+    font-size: large;
+}
+.date-subtitle {
+    display: inline;
+    padding-left: 0px;
+}
+.search-form {
+    padding-left: 20%;
+    padding-right: 20%;
+    text-align: center;
+}
+.submit-button {
+    background-color: transparent;
+    width: 25%;
+    height: 60px;
+    margin-top: 5%;
+    font-family: abel;
+    font-style: normal;
+    font-size: x-large;
+    font-weight: 800;
+    border-radius: 10px;
+    border: 5px solid rgba(255,255,255,1.00);
+    padding-bottom: 35px;
+    padding-top: 1%;
+    color: rgba(250,250,250,1.00);
+	transition: background-image 0.5s linear;
+}
+.submit-button:hover {
+    background-color: rgba(161,255,217,1.00);
+    color: rgba(253,255,254,1.00);
+    transition: 0.3s;
+    border-color: rgba(252,252,252,1.00);
+    text-shadow: 0px 1px 6px rgba(11,11,11,1.00);
+}
+#inputSubmit {
+}
+#start {
+}
+#end {
+}
+#asteroidName {
+}
+.table-content {
+    color: rgba(49,66,67,1.00);
+    text-align: center;
+    width: 80%;
+    background-color: rgba(255,255,255,0.45);
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5%;
+    margin-bottom: 10%;
+    border: thick double rgba(0,250,250,1.00);
+    border-radius: 15px;
+    padding-top: 2%;
+    padding-right: 2%;
+    padding-bottom: 2%;
+    padding-left: 2%;
+}
+.chart-header {
+    text-align: center;
+    font-size: x-large;
+    font-style: italic;
+    margin-left: 2%;
+    margin-right: 2%;
+    width: 10%;
+    color: rgba(69,250,250,1.00);
+    text-shadow: 0px 5px 5px rgba(46,107,107,1.00);
+}
+.chart-date {
+    font-size: xx-large;
+    color: rgba(212,0,1,1.00);
+    text-decoration: underline;
+    /* [disabled]text-shadow: 0px 3px 7px rgba(31,2,0,1.00); */
+}
+.powered {
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+.footer-logo {
+    background-color: rgba(151,151,151,1.00);
+    display: inline-block;
+    border-radius: 10px;
+    float: right;
+    margin-right: 50px;
+    width: 125px;
+    height: 60px;
+    margin-top: -15px;
+    margin-left: auto;
+}
+.site-footer {
+    background-image: -moz-linear-gradient(26deg,rgba(57,57,57,1.00) 0%,rgba(20,20,20,1.00) 100%);
+    background-image: -webkit-linear-gradient(26deg,rgba(57,57,57,1.00) 0%,rgba(20,20,20,1.00) 100%);
+    background-image: -o-linear-gradient(26deg,rgba(57,57,57,1.00) 0%,rgba(20,20,20,1.00) 100%);
+    background-image: linear-gradient(64deg,rgba(57,57,57,1.00) 0%,rgba(20,20,20,1.00) 100%);
+    height: 85px;
+    color: rgba(142,142,143,1.00);
+    margin-top: 40px;
+    margin-bottom: -155px;
+}
+.footer-map-title {
+    width: 85%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 1%;
+    margin-bottom: 0%;
+    height: auto;
+}
+.footer-site-block {
+    width: 50%;
+    height: 98%;
+    float: left;
+}
+.github-info {
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: left;
+    float: left;
+    margin-top: 0px;
+}
